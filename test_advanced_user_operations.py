@@ -1,6 +1,6 @@
 import unittest
 import sqlite3
-from advanced_user_operations import *
+from paul_adv_ops import *
 
 create_user_with_profile('user5', 'password1', 'user5@example.com', 'John', 'Doe', 30, 'M', '123 Oak St')
 create_user_with_profile('user2', 'password2', 'user2@example.com', 'Jane', 'Smith', 25, 'F', '456 Elm St')
